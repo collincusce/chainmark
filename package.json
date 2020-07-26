@@ -1,0 +1,58 @@
+{
+  "name": "@avalabs/chainmark",
+  "version": "0.0.1",
+  "description": "Visual identification for chains and addresses in Avalanche.",
+  "main": "typings/src/index.js",
+  "types": "typings/src/index.d.ts",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "build": "rm -rf typings/ && npx tsc -b && webpack --mode production",
+    "lint": "eslint ./",
+    "prepublish": "npm run build",
+    "test": "jest",
+    "test-watch": "jest --watch",
+    "docshtml": "npx typedoc --plugin typedoc-plugin-external-module-name --mode file src",
+    "docsmd": "npx typedoc --readme none --plugin typedoc-plugin-markdown,typedoc-plugin-external-module-name --theme markdown --out docsMD src",
+    "docs": "npm run docshtml && npm run docsmd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/collincusce/chainmark.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/collincusce/chainmark/issues"
+  },
+  "homepage": "https://github.com/collincusce/chainmarks#readme",
+  "devDependencies": {
+    "@types/bn.js": "^4.11.6",
+    "@types/jest": "^26.0.7",
+    "@types/node": "^14.0.26",
+    "clean-webpack-plugin": "^3.0.0",
+    "expose-loader": "^1.0.0",
+    "git-revision-webpack-plugin": "^3.0.6",
+    "html-webpack-plugin": "^4.3.0",
+    "jest": "^26.1.0",
+    "raw-loader": "^4.0.1",
+    "terser-webpack-plugin": "^3.0.7",
+    "ts-jest": "^26.1.3",
+    "ts-loader": "^8.0.1",
+    "typedoc": "^0.17.8",
+    "typedoc-plugin-external-module-name": "^4.0.3",
+    "typedoc-plugin-markdown": "^2.3.1",
+    "typescript": "^3.9.7",
+    "webpack": "^4.44.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "engines": {
+    "node": ">=12.13.1",
+    "npm": ">=6.12.1"
+  },
+  "dependencies": {
+    "bn.js": "^5.1.2",
+    "buffer": "^5.6.0"
+  }
+}

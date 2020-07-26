@@ -1,0 +1,15 @@
+<svg class="avax-chainmark" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="300" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <polygon class="avax-chainmark-polygon avax-chainmark-octagon" points="138,8 62,8 8,62 8,138 62,192 138,192 192,138 192,62" />
+    <polygon points="62,8 138,8 100,100" style="fill:lime;stroke:black;stroke-width:1" class="avax-chainmark-octagon-triangle-0" />
+    <polygon points="138,8 192,62 100,100" style="fill:blue;stroke:black;stroke-width:1" class="avax-chainmark-octagon-triangle-1" />
+    <polygon points="192,62 192,138 100,100" style="fill:purple;stroke:black;stroke-width:1" class="avax-chainmark-octagon-triangle-2" />
+    <polygon points="192,138 138,192 100,100" style="fill:red;stroke:black;stroke-width:1" class="avax-chainmark-octagon-triangle-3" />
+    <polygon points="138,192 62,192 100,100" style="fill:orange;stroke:black;stroke-width:1" class="avax-chainmark-octagon-triangle-4" />
+    <polygon points="62,192 8,138 100,100" style="fill:yellow;stroke:black;stroke-width:1" class="avax-chainmark-octagon-triangle-5" />
+    <polygon points="8,138 8,62 100,100" style="fill:magenta;stroke:black;stroke-width:1" class="avax-chainmark-octagon-triangle-6" />
+    <polygon points="8,62 62,8 100,100" style="fill:turquoise;stroke:black;stroke-width:1" class="avax-chainmark-octagon-triangle-7" />
+    <text style="font-size:60pt" x="50" y="130" x="50" y="130" class="avax-chainmark-octagon-main-emoji">🍆</text>
+    <svg width="100%" height="16px" y="195"class="avax-chainmark-octagon-main-emoji-svg">
+        <text x="50%" y="50%" alignment-baseline="middle" text-anchor="middle" style="font-family: 'Arial Black', Gadget, sans-serif; font-size: 14px;" class="avax-chainmark-octagon-main-emoji-name">CONSTRUCTION WORKER</text>      
+    </svg>
+</svg>
